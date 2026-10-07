@@ -1,0 +1,12 @@
+{
+  "name": "projeto-aula-git",
+  "version": "1.0.0",
+  "description": "Projeto didático para demonstrar o uso do .gitignore",
+  "scripts": {
+    "start": "http-server src/ -o",
+    "build": "node script-build.js"
+  },
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
